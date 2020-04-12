@@ -84,7 +84,7 @@ namespace UniWaveLoop {
 
 					switch (header) {
 						case chunkIdFmt:
-							if (chunkSize != sizeof(Fmt)) {
+							if (chunkSize < sizeof(Fmt)) {
 								throw new FormatException("Unsupported fmt chunk size: " + chunkSize);
 							}
 							fmt = stream.Read<Fmt>();
