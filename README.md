@@ -5,7 +5,7 @@ Did you know Unity Audio can handle loop point by default, with no runtime code?
 About
 ---
 This editor tool allows you to set a loop point to your wav file in Unity.
-Although this tool works on Unity 2018+, the loop points will work on legacy Unity versions, for it modifies not import settings but the wav file itself.
+Although this tool works on Unity 2018+, the loop points will work on not only them but the legacy versions of Unity, for it modifies not import settings but the wav file itself.
 
 Usage
 ---
